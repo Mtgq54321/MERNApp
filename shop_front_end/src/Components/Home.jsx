@@ -16,7 +16,7 @@ export default function ProductList() {
   const [currentImageIndex, setCurrentImageIndex] = React.useState(0);
 
   React.useEffect(() => {
-    axios.get('http://localhost:3006/products/')
+    axios.get('/products/')
       .then(response => {
         setProducts(response.data);
       })
