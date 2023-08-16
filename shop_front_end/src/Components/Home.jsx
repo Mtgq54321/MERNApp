@@ -101,10 +101,10 @@ export default function ProductList() {
             </Typography>
             <CardActions style={{ justifyContent: 'space-between', width: '100%' }}>
             <Typography variant="h3" gutterBottom>
-              <a href='http://localhost:3000/register'>Register</a>
+              <a href='/register'>Register</a>
             </Typography>
             <Typography variant="h3" gutterBottom>
-              <a href='http://localhost:3000/login'>Login</a>
+              <a href='/login'>Login</a>
             </Typography>
             </CardActions>
           </CardContent>
